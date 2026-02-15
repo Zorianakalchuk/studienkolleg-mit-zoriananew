@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studienkolleg mit Zoriana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container header-container">
+    <h1 class="logo">StudienKolleg mit <span>Zoriana</span> </h1>
+    <nav class="nav-list">
+      <a class="home" href="index.html">Головна</a>
+      <a class="about" href="#aboutUs">Про нас</a>
+      <a class="books" href="#books">Збірники</a>
+      <a class="contact" href="#">Контакти</a>
+    </nav>
+    <div class="lang-cart">
+      
+      <button onclick="switchLanguage()">🇺🇦/🇩🇪/🇷🇺</button>
+      <span class="cart">🛒</span>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+ <div class="container1"> 
+  <div class="hero-content">
+  <h2>Збірники для вступу в Штудієнколлег</h2>
+  <p>Підготуйтеся до вступних іспитів в Німеччині</p>
+  <a class="btn-buy" href="#books">Усі збірники</a> 
+ </div>
+</div>
+  <div class="hero-images">
+    <img src="img/inhaberin.png" alt="Inhaberin">
+  </div>
+</section>
+
+<!-- Features -->
+<section class="features">
+    <div class="feature">
+      <h3 class="feature-title-1">Ефективні матеріали</h3>
+      <p class="feature-text-1">Всі теми та вправи, що потрібні для вступу</p>
+    </div>
+    <div class="feature">
+      <h3 class="feature-title-2">Актуальні тести</h3>
+      <p class="feature-text-2">Завдання та приклади, як на іспиті</p>
+    </div>
+    <div class="feature">
+      <h3 class="feature-title-3">Швидка доставка</h3>
+      <p class="feature-text-3">Доступ до PDF-файлу одразу після оплати</p>
+    </div>
+  </section>
+  
+  <section id="aboutUs" class="about-section">
+
+    <h2 class="about-title">Про нас</h2>
+  
+    <p class="about-p1">
+      <strong>Ми створюємо матеріали, які допомагають вчитися структуровано, підготуватися до іспиту та успішно скласти його.</strong>
+    </p>
+  
+    <p class="about-p2">
+      Автори матеріалів навчаються в найкращих університетах Німеччини. Вони пройшли шлях 
+      адаптації, підготовки до мовних сертифікатів, навчання у Studienkolleg 
+      та складання важливих іспитів.
+    </p>
+  
+    <p class="about-p3">
+      Наша команда знає, як це — готуватися без чіткої структури, шукати матеріали по різних сайтах,
+      витрачати години на те, що не дає результату.
+    </p>
+  
+    <p class="about-p4">
+      Саме тому ми створила збірники, які:
+    </p>
+  
+    <ul>
+      <li class="about-li-1">виглядають як справжній іспит</li>
+      <li class="about-li-2">заощаджують десятки годин пошуків</li>
+      <li class="about-li-3">допомагають натренувати швидкість і стресостійкість</li>
+      <li class="about-li-4">підходять для самостійної роботи</li>
+    </ul>
+  
+    <p class="about-p5">
+      Це не просто PDF. Це інструмент, який допомагає перевірити свої знання та відчути впевненість 
+      перед екзаменом, що наблизить Вас до вступу до університету.
+    </p>
+  
+    <p class="about-p6">
+      <strong>Наша мета — щоб Ви склали іспит з першого разу.</strong>
+    </p>
+  
+  </section>
+  
+  <section class="reviews" id="reviews">
+    <h2 class="reviews-title">Відгуки клієнтів</h2>
+  
+    <div class="slider">
+      <button class="prev">&#10094;</button>
+  
+      <div class="slides">
+        <img src="img/review1.png" class="slide active">
+        <img src="img/review2.png" class="slide">
+        <img src="img/review3.png" class="slide">
+        <img src="img/review4.png" class="slide">
+       
+      </div>
+     
+      <button class="next"> &#10095;</button>
+    </div>
+  </section>
+
+  <div class="bookscroll" id="books"></div>
+  
+  <section class="important-section">
+    <div class="important-box" >
+      <h2 class="important-title">ВАЖЛИВО</h2>
+      <p class="important-text">
+        Вам потрібен Telegram, оскільки там зберігаються PDF-файли.
+      </p>
+    </div>
+  </section>  
+
+<!-- Products -->
+<section class="products" >
+    <h2 class="products-title">Усі збірники для підготовки</h2>
+  
+    <div class="product-cards">
+  
+      <div class="card">
+        <img src="img/deutschmuenchen.png" alt="DeutschMuenchen">
+        <h3 class="product-title-1">Збірник “Deutsch” для Studienkolleg München</h3>
+        <p class="product-desc-1">Містить 5 Musterprüfungen</p>
+        <p class="price">€ 19,99</p>
+        <a href="ТУТ_БУДЕ_STRIPE_LINK" class="btn-buy">Придбати</a>
+      </div>
+  
+      <div class="card">
+        <img src="img/mathemuenchen.png" alt="MatheMuenchen">
+        <h3 class="product-title-2">Збірник “Mathematik” W/M-Kurs для Studienkolleg München</h3>
+        <p class="product-desc-2">Містить 6 Musterprüfungen і тренувальні вправи по кожній темі</p>
+        <p class="price">€ 24,99</p>
+        <a href="ТУТ_БУДЕ_STRIPE_LINK" class="btn-buy">Придбати</a>
+      </div>
+  
+      <div class="card">
+        <img src="img/matheleipzig.png" alt="MatheLeipzig">
+        <h3 class="product-title-3">Збірник “Mathematik” для Studienkolleg Leipzig</h3>
+        <p class="product-desc-3">Містить 5 Musterprüfungen</p>
+        <p class="price">€ 19,99</p>
+        <a href="ТУТ_БУДЕ_STRIPE_LINK" class="btn-buy">Придбати</a>
+      </div>
+  
+    </div>
+  </section>
+  
+
+<!-- Call to Action -->
+<section class="cta">
+  <h1>Готові до вступу до Штудієнколлег?</h1>
+  <h3 class="btn-buy">Почніть підготовку вже сьогодні!</h3> 
+</section>
+
+
+
+<!-- Payment Icons -->
+<section class="payments">
+  <p class="payments-text">Зручна оплата:</p>
+  <div class="payment-icons">
+    <img src="img/apple.png" alt="Apple Pay">
+    <img src="img/google.png" alt="Google Pay">
+    <img src="img/mastercard.png" alt="MasterCard">
+    <img src="img/visa.png" alt="VISA">
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+  <div class="footer-links">
+    <div>
+      <h4>Інформація</h4>
+      <a href="aboutUs">Про нас</a>
+      
+    </div>
+    <div>
+      <h4>Підтримка</h4>
+      <a href="#">Контакти</a>
+    </div>
+    <div>
+      <h4>Наші соцмережі</h4>
+      <a class="underline" href="https://t.me/studienkolleg_mit_Zoriana">Telegram</a>
+      <a class="underline" href="https://www.tiktok.com/@studienkollegmit.zoriana?_r=1&_t=ZG-93vFQ9rct5E">TikTok</a>
+    </div>
+  </div>
+  <p>© 2026 StudienKolleg mit Zoriana | Всі права захищені</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
