@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding-top: 100px;
-justify-content: center;
+    justify-content: center;
     background: #f7f7f7;
     color: #333;
     line-height: 1.6;
@@ -24,28 +24,15 @@ justify-content: center;
   
   /* Header */
   header {
-    
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  header {
     position: fixed;
-
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white; /* або свій колір */
-    z-index: 1000; /* щоб була поверх інших елементів */
-  }  
-  header {
     top: 0;
     left: 0;
     width: 100%;
     background: #fff;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 1000;
-    
   }
+
   
   .header-container {
     display: flex;
@@ -74,13 +61,7 @@ justify-content: center;
   .logo span {
     font-weight: 300;
   }
-.nav-list {
-  display: flex;
 
-  gap: 15px ;
-  padding: 0px 20px;
-  align-items: center;
-}
 @media (max-width: 768px) {
   .nav-list {
     flex-direction: column;
@@ -91,6 +72,8 @@ justify-content: center;
   display: flex;
   gap: clamp(8px, 2vw, 20px);
   font-size: clamp(10px, 1.5vw, 16px);
+  padding: 0px 20px;
+  align-items: center;
 }
 .lang-cart{
   display: flex;
@@ -182,14 +165,7 @@ justify-content: center;
   }
 
   /* Загальні налаштування */
-body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: #f9fafc;
-    color: #1a1a1a;
-    line-height: 1.6;
-  }
-  
+
   /* Секція */
   .about-section {
    
